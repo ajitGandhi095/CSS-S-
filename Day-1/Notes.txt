@@ -1,0 +1,48 @@
+=> GML => SGML => 1992 -> HTML
+=> WWWC(World Wide Web Consoritum) - 1994-1996 -> CERN -> Cascading Style Sheets(CSS)
+=> Current Version of CSS Is CSS3.
+=> Css UUsed for styling/Designing of the web page. 
+=> CSS Can be implemented in Html using 3 ways :-
+1) Inline CSS :-
+--------------------
+=> In the line of an element, we can write "style" as a property.
+
+2)Internal CSS :-
+----------------------
+=> usually all css with selectors can be included in "style" element.
+syntax:-
+   <style>
+   selector{
+    property:value;
+   }
+   </style>
+
+3) External CSS :-
+------------------------
+=> You can write css in external file with extension .css and link that file in html.
+
+<link rel="stylesheet" href="./code.css">
+
+-> priority :- inline -> internal -> external
+-> id -> class -> tagname
+-> !important can bring anything to the top of priority  chain.
+
+-> class is used to identify the element or group of element. multiple element may have some class name or one element may have multiple class names.
+
+-> to use class, we use .notation
+-> id is unique for an element
+-> to use id, we use #notation
+
+-> Fonts are the way of your characters representation in site.
+-> Fonts are mixed as a combination called font-family.
+-> There are 5 font families existed :-
+               1) serif
+               2) sans-serif
+               3) fantasy
+               4) cursive
+               5) monospace
+
+=>
+
+
+             

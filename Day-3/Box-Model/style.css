@@ -1,0 +1,60 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: cadetblue;
+    background-image: url(https://jooinn.com/images/lonely-tree-reflection-3.jpg);
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+}
+.box{
+    margin: 25px 35px 50px 40px;
+    font-size: 10px;
+    width: 50vw;
+    height: 10vh;
+    /* border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-style: solid;
+    /* border-left: 1px solid black; */
+    border: 1px solid black; 
+    border-radius: 50px;
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    padding: 20px 15px 10px;
+    width: 100px;
+    box-shadow: 5px 5px 5px black;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    /* overflow-y: scroll; */
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.box2{
+    box-sizing: border-box;
+    background-color: rgba(201, 70, 70, 0.64);
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    
+}
+a{
+    text-decoration: 2px double;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    
+}

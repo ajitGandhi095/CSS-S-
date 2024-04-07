@@ -1,0 +1,47 @@
+input:required--> Select inputs who have required flag
+input:optional---> Select all inputs who don't have any required flag.
+input:read-only---> Select all inputs who have read-only flag.
+input:read-write---> Select all inputs who don't have any read-only flag.
+input:disabled---> Select all inputs who have disabled flag.
+input:enabled---> Select all inputs who don't have any disabled flag.
+input:hidden---> Select hidden inputs element.
+
+div:empty---> Select all divs who are empty.
+
+div:nth-child(1)---> Select div who is first child of their parent
+div:nth-of-type(1)---> Select div who is first div for their parent
+div:nth-last-child(1)---> 
+
+
+
+
+-> margin: 25px 50px;  means (top-bottom : 25px)
+                          (left-right : 50px)   
+
+-> margin: 25px 35px 50px 40px; ( top, right, bottom, left)
+
+-> margin: 25px 35px 40px; (top, bottom, left-right)
+
+-> padding: 20px; (top, bottom, left, right)
+
+-> padding: 20px 15px 10px; (top, left-right, bottom)
+
+-> text-transform ---> change uppercase, lowercase.
+
+-> box-shadow: 5px 5px black; (x-axis, y-axis, color)
+
+-> Units:- 
+------------------
+  Percentages - 0%-100%
+  px -> pixel-> whole screen will be divided into x*y pixels.
+
+  em -> It will take value compared to parent.
+  rem -> It will take value compared to root -> default of root is 12px.
+
+  vh -> viewport height
+  vw -> viewport width
+
+
+
+  task -> create a nice hero banner section
+

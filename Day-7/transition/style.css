@@ -1,0 +1,114 @@
+.main{
+    display: flex;
+    /* grid-template-columns: repeat(2,auto); */
+    gap: 20px;
+    height: 100vh;
+}
+.box1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: fall-down1 5s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+@keyframes fall-down1{
+    0%{
+        position: relative;
+        top: 0%;
+
+    }
+    100%{
+        position: relative;
+        top: 100vh;
+    }
+}
+.box2{
+    background-color: blue;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: fall-down2 5s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+@keyframes fall-down2{
+    0%{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: fall-down 5s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+    }
+}
+@keyframes fall-down2{
+    0%{
+        position: relative;
+        top: 0%;
+
+    }
+    50%{
+        position: relative;
+        top: 50%;
+        background-color: rgba(26, 99, 133, 0.766);
+    }
+    100%{
+        position: relative;
+        top: 100vh;
+    }
+}
+
+.box:hover{
+    /* background-color: blue; */
+    /* transform: scale3d(1.5);
+    height: 200px; */
+    /* border-radius: 20px;
+    transition-property: background-color height; */
+    /* transition-duration: 5s; */
+    
+    /* transition-timing-function: ease-in-out; */
+
+    transform: rotateY(45deg);
+    
+    transition: all 1s ease ;
+}
+/* .boxx{
+    transition: all 3s ease;
+}
+.boxx:hover{
+    transform: translate(100px,-50px);
+    transition: all 3s ease;
+    
+} */
+
+.boxx{
+    animation-name: ajit;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes ajit{
+    0%{
+        height: 100px; width: 100px; background-color: blue; 
+        margin: 10px;
+    }
+    30%{
+        height: 150px; width: 150px; background-color: green; 
+        margin: 10px;
+        border-radius: 50%;
+        transform: translateX(200px);
+    }
+    60%{
+        height: 80px; width: 80px; background-color: auqa; 
+        margin: 10px;
+        transform: translateY(200px);
+    }
+    100%{
+        height: 50px; width: 50px; background-color: red; 
+        margin: 10px;
+        border-radius: 50%;
+        transform: translateX(100px);
+    }
+}

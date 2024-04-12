@@ -1,0 +1,23 @@
+CSS
+textbg,font,bg,colors
+units
+box model
+float
+display
+flex
+grid
+selectors
+transition & translate
+-----------------------------------------------------------------------------
+
+Transition:-
+====================
+=> It means going from one state to another state.
+=> transition: transition-name, time, timing-function, delay-time.
+
+Transform:-
+===================
+=> It is used to transform the elements.
+=>scale--> to zoom.
+=>rotate--> rotate the element using deg.
+=>translate--> move to x-axis or y-axis.

@@ -1,0 +1,49 @@
+                  Float & Position
+            ====================================
+            
+=> Folat is used to keep an element floating right/left of UI.It will remove the element from the actual flow, so that the next element will fill the agp when the current element stays left/right.
+
+=>float:left/right
+---> NOTE :- If the next element don't want floating element to be it's left/right, it can use "clear" like
+     
+clear:left/right/both
+
+* Position :-
+---------------
+=> Position property is used to keep the element to a certain Position in the UI.
+Usually there are 5 types of Position:- 
+                                        1)static
+                                        2)absolute
+                                        3)fixed
+                                        4)relative
+                                        5)stickey
+=> By defualt all elements are static. offsets like top,bottom,left,right not have any impact on static.
+
+1)relative:-
+----------------
+=>It moves relative to it's parent. for example an element with position-relative and left-100px will move 100px left side from it's previous position in parent.
+
+2)absolute:-
+-------------
+=>In absolute element consider window as parent and if left 100px given, it moves 100px from window not parent.
+
+3)fixed:-
+-----------
+=> fixed also consider window as parent same as absolute but won't get affected by scrolling.
+
+4)sticky:-
+---------------
+=> sticky is nothing but relative + fixed.
+
+Z-index:-
+-------------
+=> It is used when multiple element collide in same space, the one with more z-index will appear over the ones with less z-index.
+
+=> position: absolute; -> Actual root div
+=> position: relative; -> Actual parent div
+=> position: fixed; -> Not scrolling
+=> stickey --> relative + fixed
+
+
+Task:-
+Create a manu bar & banner & a card section

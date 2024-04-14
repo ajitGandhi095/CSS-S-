@@ -1,0 +1,5 @@
+mobile -->width->240px-480px (max)
+Tablets -->width-> 481px to 768px
+desktop -->width-> 769px to 1024px (old pc/laptop)
+                   1025px to 1280 (new pc/laptop)
+TV --> <1400px to >1400px
